@@ -11,7 +11,7 @@ menu = {
 'salad':70,
 }
 print("WELCOME TO OUR RESTAURANT")
-print("pizza: Rs 120\n pasta: Rs 99\n burger: Rs 80\n coffee: Rs 60\n momos: Rs 70\n french fries: Rs 89\n Chawmin: Rs 80\n Dosa: Rs 120\n Roasted: Rs 79\n salad: Rs 70")
+print("pizza: Rs 140\n pasta: Rs 99\n burger: Rs 80\n coffee: Rs 60\n momos: Rs 70\n french fries: Rs 89\n Chawmin: Rs 80\n Dosa: Rs 120\n Roasted: Rs 79\n salad: Rs 70")
 
 order_total = 0
 item_1= input("Enter the name of item you want to order =")
@@ -39,6 +39,7 @@ if another_order == "yes":
         print(f"Ordered item {item_2} is not available")         
     
 print(f"The total amount of item  to pay is {order_total}")
+
 
 
 
