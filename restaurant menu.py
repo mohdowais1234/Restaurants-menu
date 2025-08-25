@@ -31,7 +31,7 @@ if another_order == "yes":
         print(f"Ordered item {item_2} is not available")  
 another_order = input("Do you want to another item? (yes/No) ")
 if another_order == "yes":
-    item_3 = input("Enter the name of second item =")    
+    item_3 = input("Enter the name of third item =")    
     if item_3 in menu:
         order_total +=menu[item_3]
         print(f"Item {item_3} has been added to order")
@@ -39,6 +39,7 @@ if another_order == "yes":
         print(f"Ordered item {item_2} is not available")         
     
 print(f"The total amount of item  to pay is {order_total}")
+
 
 
 
